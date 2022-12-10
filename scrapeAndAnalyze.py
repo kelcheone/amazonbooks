@@ -150,6 +150,8 @@ class Book:
         # add the scatter plot
         plt.scatter(booksDf['Price'], booksDf['Rating'],
                     s=100, color='slateblue', alpha=0.5)
+
+        # save the plot as a png image
         plt.savefig(f'{self.csv_name}_plot.png')
 
 
