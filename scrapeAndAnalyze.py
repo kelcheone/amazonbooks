@@ -1,9 +1,9 @@
-import requests
-from bs4 import BeautifulSoup
-import re
-import csv
-import pandas as pd
 import matplotlib.pyplot as plt
+from bs4 import BeautifulSoup
+import pandas as pd
+import requests
+import csv
+import re
 
 
 def getAmazonPrice(productUrl):
