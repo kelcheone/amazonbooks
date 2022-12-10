@@ -164,11 +164,12 @@ def main():
             print(f"{key} - {value}")
     try:
         keyword = input("Enter an option number: ")
-        try:
-            if eval(keyword) != (len(keyword_options)):
-                return
-        except:
-            pass
+        # checking if keyword is valid
+        if keyword not in [str(i) for i in range(1, 8)]:
+            print("Invalid option")
+            return
+
+        # getting the keyword from the options
         for option in keyword_options:
             for key, value in option.items():
                 if keyword == key:
