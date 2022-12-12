@@ -59,6 +59,6 @@ max    69.950000   5.000000
 
 <!-- use the css_books_plot.png from this current folder -->
 
-![css_pricing](css_pricing.png)
+![css_pricing](css_price.png)
 
 ![css_rating](css_rating.png)
