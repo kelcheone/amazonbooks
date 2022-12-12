@@ -150,14 +150,14 @@ class Book:
         # add the scatter plot
         plt.scatter(booksDf['Price'], booksDf['Rating'],
                     s=100, color='slateblue', alpha=0.5)
-
         # save the plot as a png image
         plt.savefig(f'{self.csv_name}_plot.png')
+        plt.show()
 
 
 def main():
     keyword_options = [{"1": "python"}, {"2": "javascript"}, {"3": "java"}, {
-        "4": "php"}, {"5": "perl"},  {"6": "data structures and algorithms"}, {"7": "css"}]
+        "4": "php"}, {"5": "Golang"},  {"6": "data structures and algorithms"}, {"7": "css"}]
     print("Choose a keyword to search for books")
     for option in keyword_options:
         for key, value in option.items():
