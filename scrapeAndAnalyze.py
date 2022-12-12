@@ -108,11 +108,19 @@ class Book:
         highest_priced_book = max(books, key=lambda x: x["price"])
         lowest_priced_book = min(books, key=lambda x: x["price"])
 
-        print(f"Total books found: {len(books)}")
-        print(f"Highest rated book: {highest_rated_book['title']}")
-        print(f"Lowest rated book: {lowest_rated_book['title']}")
-        print(f"Highest priced book: {highest_priced_book['title']}")
-        print(f"Lowest priced book: {lowest_priced_book['title']}")
+        print("------------------------------------------------------------------------------------------------------------")
+
+        print(f"Total {self.keyword} books found: {len(books)}")
+        print(
+            f"Highest rated {self.keyword} book: {highest_rated_book['title']}")
+        print(
+            f"Lowest rated {self.keyword} book: {lowest_rated_book['title']}")
+        print(
+            f"Highest priced {self.keyword} book: {highest_priced_book['title']}")
+        print(
+            f"Lowest priced {self.keyword} book: {lowest_priced_book['title']}")
+
+        print("------------------------------------------------------------------------------------------------------------")
 
         # writing the details to a csv file.
         with open(self.csv_name + ".csv", "w") as file:
@@ -125,8 +133,9 @@ class Book:
         """Analyze the data from the saved csv file and generate a plot"""
         # getting books data from csv.
         booksDf = pd.read_csv(f'{self.csv_name}.csv')
-        print("*********************************sample data*****************************")
-        print(booksDf.head())
+        print(
+            f"*********************************{self.keyword} sample data*****************************")
+        print(booksDf.head(20))
         # getting type of rating
         booksDf['Price'].dtype
         # migrating Rating from object to float
@@ -138,21 +147,22 @@ class Book:
         # dropping all rows with ratings which are more than 5
         booksDf = booksDf[booksDf['Rating'] <= 5]
 
-        print("//////////////////////Data Description//////////////////////////")
+        print(
+            f"////////////////////// {self.keyword} Data Description//////////////////////////")
 
         print(booksDf.describe())
 
         plt.figure(figsize=(10, 6))
         # add title, x and y labels
-        plt.title('Price vs Rating', fontsize=20)
-        plt.xlabel('Price ($)', fontsize=15)
-        plt.ylabel('Rating', fontsize=15)
+        plt.title(f'{self.keyword}Price vs Rating relationship', fontsize=20)
+        plt.xlabel(f'{self.keyword} Price ($)', fontsize=15)
+        plt.ylabel(f'{self.keyword}Rating', fontsize=15)
         # add the scatter plot
         plt.scatter(booksDf['Price'], booksDf['Rating'],
                     s=100, color='slateblue', alpha=0.5)
         # save the plot as a png image
         plt.savefig(f'{self.csv_name}_plot.png')
-        plt.show()
+        # plt.show()
 
 
 def main():
