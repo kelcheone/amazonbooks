@@ -1,0 +1,252 @@
+Title,Price,Rating
+Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People,33.99,4.6
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,4.7
+"Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition",49.39,4.4
+"Game Development Patterns with Unity 2021: Explore practical game development using software design patterns and best practices in Unity and C#, 2nd Edition",36.99,4.5
+Hands-On Software Architecture with Golang: Design and architect highly scalable and robust applications using Go,51.99,4.3
+"Mastering Go: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures, 2nd Edition",62.99,4.3
+Learn Data Structures and Algorithms with Golang: Level up your Go programming skills to develop faster and more efficient code,21.99,3.7
+Graphic Go Algorithms: Graphically learn data structures and algorithms better than before (Easy Learning Golang Programming Foundation Data Structures and Algorithms),48.99,4.0
+"Go Programming Language, The (Addison-Wesley Professional Computing Series)",35.99,4.7
+Learning Go: An Idiomatic Approach to Real-World Go Programming,43.49,4.7
+100 Go Mistakes and How to Avoid Them,48.49,4.9
+100 Go Mistakes and How to Avoid Them,48.49,4.9
+"Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems",35.49,4.6
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,4.7
+Concurrency in Go: Tools and Techniques for Developers,49.99,4.5
+Pro Go: The Complete Guide to Programming Reliable and Efficient Software Using Golang,18.00,4.3
+Go in Practice: Includes 70 Techniques,44.99,4.5
+Powerful Command-Line Applications in Go: Build Fast and Maintainable Tools,39.49,4.8
+Building Microservices: Designing Fine-Grained Systems,55.01,4.7
+Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science),40.47,4.8
+"Good Code, Bad Code: Think like a software engineer",49.99,4.9
+"Software Architecture Patterns for Serverless Systems: Architecting for innovation with events, autonomous services, and micro frontends",45.00,4.8
+Go Mini Reference: A Quick Guide to the Go Programming Language for Busy Coders (A Hitchhiker's Guide to the Modern Programming Languages),16.95,5.0
+Network Programming with Go: Code Secure and Reliable Network Services from Scratch,34.49,4.7
+"Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition",49.39,4.4
+OAuth 2 in Action,49.99,4.7
+Head First Go,37.49,4.7
+"Programming Rust: Fast, Safe Systems Development",32.49,4.7
+Cloud Native Go: Building Reliable Services in Unreliable Environments,38.49,4.5
+"Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",23.37,4.8
+Rust Web Development with Rocket: A practical guide to starting your journey in Rust web development using the Rocket framework,29.99,5.0
+Efficient Go: Data-Driven Performance Optimization,59.29,3.0
+C++20 STL Cookbook: Leverage the latest features of the STL to solve real-world problems,39.99,4.6
+Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures,29.99,4.6
+"SQL QuickStart Guide: The Simplified Beginner's Guide to Managing, Analyzing, and Manipulating Data With SQL",24.99,4.6
+Black Hat Go: Go Programming For Hackers and Pentesters,39.95,4.6
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,4.7
+Hands-On Software Engineering with Golang: Move beyond basic programming to design and build reliable software with clean code,27.99,4.5
+Build Systems With Go: Everything a Gopher must know,9.99,4.5
+"Go Programming Cookbook: Over 85 recipes to build modular, readable, and testable Golang applications across various domains, 2nd Edition",39.99,3.3
+Five Lines of Code: How and when to refactor,49.99,4.9
+"Engineers Survival Guide: Advice, tactics, and tricks After a decade of working at Facebook, Snapchat, and Microsoft",29.99,4.5
+"Go in 24 Hours, Sams Teach Yourself: Next Generation Systems Programming with Golang",17.27,3.9
+"How to Build and Deploy Production-Grade Web Services with gRPC/OpenAPI: Go, Firebase,Firestore,API Gateway,Load Balancing, CloudRun Vol I.: How to Build ... Web Services with Go (Golang) Book 1)",9.99,5.0
+"Golang: Go Programming, In 8 Hours, For Beginners, Learn Coding Fast: Go Language Crash Course Textbook & Exercises (In 8 Hours Textbooks 4)",0.00,4.4
+"xchg rax,rax",10.00,4.6
+GO Programming in easy steps: Learn coding with Google's Go language,15.19,4.3
+Hands-On High Performance with Go: Boost and optimize the performance of your Golang applications at scale with resilience,46.99,4.0
+"Hands-on Go Programming: Learn Google’s Golang Programming, Data Structures, Error Handling and Concurrency ( English Edition)",29.95,4.3
+System Design Interview – An Insider's Guide: Volume 2,36.00,4.7
+Go For Beginners: A Genius Guide to Go Programing,29.99,4.0
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,4.7
+Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People,33.99,4.6
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,4.7
+"Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition",49.39,4.4
+"Game Development Patterns with Unity 2021: Explore practical game development using software design patterns and best practices in Unity and C#, 2nd Edition",36.99,4.5
+Hands-On Software Architecture with Golang: Design and architect highly scalable and robust applications using Go,51.99,4.3
+"Mastering Go: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures, 2nd Edition",62.99,4.3
+Learn Data Structures and Algorithms with Golang: Level up your Go programming skills to develop faster and more efficient code,21.99,3.7
+Graphic Go Algorithms: Graphically learn data structures and algorithms better than before (Easy Learning Golang Programming Foundation Data Structures and Algorithms),48.99,4.0
+"Go Programming Language, The (Addison-Wesley Professional Computing Series)",35.99,4.7
+Learning Go: An Idiomatic Approach to Real-World Go Programming,43.49,4.7
+100 Go Mistakes and How to Avoid Them,48.49,4.9
+100 Go Mistakes and How to Avoid Them,48.49,4.9
+"Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems",35.49,4.6
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,4.7
+Concurrency in Go: Tools and Techniques for Developers,49.99,4.5
+Pro Go: The Complete Guide to Programming Reliable and Efficient Software Using Golang,18.00,4.3
+Go in Practice: Includes 70 Techniques,44.99,4.5
+Powerful Command-Line Applications in Go: Build Fast and Maintainable Tools,39.49,4.8
+Building Microservices: Designing Fine-Grained Systems,55.01,4.7
+Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science),40.47,4.8
+"Good Code, Bad Code: Think like a software engineer",49.99,4.9
+"Software Architecture Patterns for Serverless Systems: Architecting for innovation with events, autonomous services, and micro frontends",45.00,4.8
+Go Mini Reference: A Quick Guide to the Go Programming Language for Busy Coders (A Hitchhiker's Guide to the Modern Programming Languages),16.95,5.0
+Network Programming with Go: Code Secure and Reliable Network Services from Scratch,34.49,4.7
+"Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition",49.39,4.4
+OAuth 2 in Action,49.99,4.7
+Head First Go,37.49,4.7
+"Programming Rust: Fast, Safe Systems Development",32.49,4.7
+Cloud Native Go: Building Reliable Services in Unreliable Environments,38.49,4.5
+"Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",23.37,4.8
+Rust Web Development with Rocket: A practical guide to starting your journey in Rust web development using the Rocket framework,29.99,5.0
+Efficient Go: Data-Driven Performance Optimization,59.29,3.0
+C++20 STL Cookbook: Leverage the latest features of the STL to solve real-world problems,39.99,4.6
+Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures,29.99,4.6
+"SQL QuickStart Guide: The Simplified Beginner's Guide to Managing, Analyzing, and Manipulating Data With SQL",24.99,4.6
+Black Hat Go: Go Programming For Hackers and Pentesters,39.95,4.6
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,4.7
+Hands-On Software Engineering with Golang: Move beyond basic programming to design and build reliable software with clean code,27.99,4.5
+Build Systems With Go: Everything a Gopher must know,9.99,4.5
+"Go Programming Cookbook: Over 85 recipes to build modular, readable, and testable Golang applications across various domains, 2nd Edition",39.99,3.3
+Five Lines of Code: How and when to refactor,49.99,4.9
+"Engineers Survival Guide: Advice, tactics, and tricks After a decade of working at Facebook, Snapchat, and Microsoft",29.99,4.5
+"Go in 24 Hours, Sams Teach Yourself: Next Generation Systems Programming with Golang",17.27,3.9
+"How to Build and Deploy Production-Grade Web Services with gRPC/OpenAPI: Go, Firebase,Firestore,API Gateway,Load Balancing, CloudRun Vol I.: How to Build ... Web Services with Go (Golang) Book 1)",9.99,5.0
+"Golang: Go Programming, In 8 Hours, For Beginners, Learn Coding Fast: Go Language Crash Course Textbook & Exercises (In 8 Hours Textbooks 4)",0.00,4.4
+"xchg rax,rax",10.00,4.6
+GO Programming in easy steps: Learn coding with Google's Go language,15.19,4.3
+Hands-On High Performance with Go: Boost and optimize the performance of your Golang applications at scale with resilience,46.99,4.0
+"Hands-on Go Programming: Learn Google’s Golang Programming, Data Structures, Error Handling and Concurrency ( English Edition)",29.95,4.3
+System Design Interview – An Insider's Guide: Volume 2,36.00,4.7
+Go For Beginners: A Genius Guide to Go Programing,29.99,4.0
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,4.7
+Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People,33.99,"1,189"
+100 Go Mistakes and How to Avoid Them,48.49,20
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,28
+System Design Interview – An insider's guide,35.99,"2,160"
+Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People,33.99,"1,189"
+Go in Action,0.00,129
+Object-Oriented Python: Master OOP by Building Games and GUIs,29.99,78
+Go Machine Learning Projects: Eight projects demonstrating end-to-end machine learning and predictive analytics applications in Go,28.49,6
+Go Programming Language For Dummies (For Dummies (Computer/Tech)),25.49,13
+Go Programming for Network Operations: A Golang Network Automation Handbook,12.99,25
+"Hands-On Dependency Injection in Go: Develop clean Go code that is easier to read, maintain, and test",41.99,16
+Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science),40.47,72
+"Game Development Patterns with Unity 2021: Explore practical game development using software design patterns and best practices in Unity and C#, 2nd Edition",36.99,33
+The Programmer's Brain: What every programmer needs to know about cognition,35.99,33
+System Design Interview – An insider's guide,35.99,"2,160"
+"HashiCorp Infrastructure Automation Certification Guide: Pass the Terraform Associate exam and manage IaC to scale across AWS, Azure, and Google Cloud",46.99,39
+Rust in Action,59.99,69
+"The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition: Your Journey to Mastery",0.00,"2,192"
+The Art of Go - Basics: Introduction to Programming in Golang - Beginner to Intermediate (Learn Real Programming Book 2),9.99,20
+Cloud Native Programming with Golang: Develop microservice-based high performance web apps for the cloud with Go,28.49,13
+The Kaggle Book: Data analysis and machine learning for competitive data science,46.99,86
+Git Essentials: Developer's Guide to Git,29.00,15
+Building Distributed Applications in Gin: A hands-on guide for Go developers to build and deploy distributed web apps with the Gin framework,46.99,19
+"The Unicorn Project: A Novel About Developers, Digital Disruption, and Thriving in the Age of Data",0.00,"2,790"
+"The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job",0.00,862
+Microsoft Office 365 for Beginners 2023: [10 in 1] The All-in-One Guide to Mastering the Whole Suite from Excel to Access | Take Full Advantage of Their Potential Even as a Non-Tech-Savvy,20.97,267
+Timeless Laws of Software Development,26.95,44
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,201
+"Python: 3 books in 1- Your complete guide to python programming with Python for Beginners, Python Data Analysis and Python Machine Learning (Programming Languages for Beginners)",24.95,108
+"Hands-On RESTful Web Services with Go: Develop elegant RESTful APIs with Golang for microservices and the cloud, 2nd Edition",41.99,20
+"CMake Cookbook: Building, testing, and packaging modular software with modern CMake",54.99,35
+Learning Go Programming: Build ScalableNext-Gen Web Application using Golang (English Edition),29.95,18
+"Go in Plain Language: Volume 3 - intro to Structs, Maps, Interfaces, Variadic Functions (Supplemental Exercises for Golang Students)",2.99,7
+"Software Architecture Patterns for Serverless Systems: Architecting for innovation with events, autonomous services, and micro frontends",45.00,22
+"Go Exercises in Plain Language: Volume 1 Variables, Control Flow, Basic Functions (Supplemental Exercises For Golang Students)",2.99,9
+Grokking Machine Learning,0.00,13
+Writing An Interpreter In Go,39.00,129
+Red Team Development and Operations: A practical guide,14.99,198
+Kubernetes in Action,50.61,301
+Hangry: A Startup Journey,24.66,42
+"Good Code, Bad Code: Think like a software engineer",49.99,14
+Hands-On System Programming with Go: Build modern and concurrent applications for Unix and Linux systems using Golang,17.84,16
+SQL for Data Analytics: Perform fast and efficient data analysis with the power of SQL,27.88,234
+Beginning ReactJS Foundations Building User Interfaces with ReactJS: An Approachable Guide,32.99,22
+Go For Beginners : A Genius Guide to Go Programing,0.00,16
+Kafka: The Definitive Guide: Real-Time Data and Stream Processing at Scale,31.99,99
+"Learn to Code: Learn HTML, CSS and JavaScript and build a website, an app and a game",0.00,5
+Go Exercises in Plain Language: Volume 2 Arrays and Slices (Supplemental Exercises For Golang Students),2.99,4
+Advanced Algorithms and Data Structures,0.00,22
+Practical IoT Hacking: The Definitive Guide to Attacking the Internet of Things,45.78,153
+"Network Programming with Go Language: Essential Skills for Programming, Using and Securing Networks with Open Source Google Golang",15.00,2
+Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People,33.99,4.6
+100 Go Mistakes and How to Avoid Them,48.49,4.9
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,4.7
+Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science),40.47,4.8
+Go For Beginners : A Genius Guide to Go Programing,0.00,4.0
+"The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations",32.38,4.7
+"Mastering Kubernetes: Level up your container orchestration skills with Kubernetes to build, run, secure, and observe large-scale distributed apps, 3rd Edition",57.99,4.5
+From Ruby to Golang: A Ruby Programmer's Guide to Learning Go,30.00,4.0
+GO Programming Language: Complete Guide for Beginners to the GO Programming Language,0.00,3.1
+"Mastering Python Networking: Your one-stop solution to using Python for network automation, programmability, and DevOps, 3rd Edition",57.99,4.6
+"Learn to Code: Learn HTML, CSS and JavaScript and build a website, an app and a game",0.00,4.1
+Go Exercises in Plain Language: Volume 2 Arrays and Slices (Supplemental Exercises For Golang Students),2.99,5.0
+Interpretable Machine Learning with Python: Learn to build interpretable high-performance models with hands-on real-world examples,40.41,4.6
+Easy Learning Go: Step by step to lead beginners to learn Go better and fast (Easy Learning Golang Programming Foundation Data Structures and Algorithms),16.99,2.5
+Building RESTful Web services with Go: Learn how to build powerful RESTful APIs with Golang that scale gracefully,34.17,3.8
+Advanced Algorithms and Data Structures,0.00,4.2
+"Game Development Patterns with Unity 2021: Explore practical game development using software design patterns and best practices in Unity and C#, 2nd Edition",36.99,4.5
+Microsoft Office 365 for Beginners 2023: [10 in 1] The All-in-One Guide to Mastering the Whole Suite from Excel to Access | Take Full Advantage of Their Potential Even as a Non-Tech-Savvy,20.97,4.9
+"Good Code, Bad Code: Think like a software engineer",49.99,4.9
+The Practice of Programming (Addison-Wesley Professional Computing Series),49.99,4.7
+Go Programming Blueprints - Solving Development Challenges with Golang,27.99,3.7
+Docker: Complete Guide To Docker For Beginners And Intermediates (Code tutorials),12.82,3.5
+Go Web Programming,41.84,4.4
+Beyond Effective Go: Part 1 - Achieving High-Performance Code,24.99,5.0
+Data-Oriented Programming: Reduce software complexity,47.99,4.6
+Ultimate Go Notebook,25.99,4.5
+The Rust Programming Language (Covers Rust 2018),33.76,4.7
+WebAssembly for Cloud: A Basic Guide for Wasm-Based Cloud Apps,12.00,3.0
+Go Standard Library Cookbook: Over 120 specific ways to make full use of the standard library components in Golang,51.99,3.9
+Becoming FlyWithKay: Plain to Social Media Fame,9.99,4.7
+Timeless Laws of Software Development,26.95,4.4
+"Software Architecture Patterns for Serverless Systems: Architecting for innovation with events, autonomous services, and micro frontends",45.00,4.8
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,4.7
+System Design Interview – An insider's guide,35.99,4.6
+"Building Microservices with Go: Develop seamless, efficient, and robust microservices with Go",46.99,3.2
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform - 2022, Paperback",25.96,5.0
+Go Programming for Beginners: An Introduction to Learn the Go Programming Language with Tutorials and Hands-On Examples,7.95,3.5
+Web API Development with Python: A Beginner's Guide using Flask and FastAPI (Intermediate Python),0.00,4.3
+Learn Golang Without Getting Bored,0.00,1.0
+Grokking Streaming Systems: Real-time event processing,45.99,3.9
+Practical Go: Building Scalable Network and Non-Network Applications,26.49,4.6
+"Security with Go: Explore the power of Golang to secure host, web, and cloud services",41.99,4.4
+"Hands-On Microservices with Rust: Build, test, and deploy scalable and reactive microservices with Rust 2018",44.99,4.3
+Writing A Compiler In Go,39.00,4.9
+Learning Go Programming,31.49,4.6
+"Mastering Kubernetes Automation: Automate deployments using Helm , Kubernetes Operators and Kubernetes client libraries",0.00,3.5
+TouchDevelop: Programming on the Go (Expert's Voice in Web Development),0.00,4.3
+Learning Functional Programming in Go: Change the way you approach your applications using functional programming in Go,28.49,3.9
+"Hands-On GUI Application Development in Go: Build responsive, cross-platform, graphical applications with the Go programming language",21.09,3.0
+"Building Cross-Platform GUI Applications with Fyne: Create beautiful, platform-agnostic graphical applications using Fyne and the Go programming language",41.99,3.7
+Job Ready Go,36.18,4.2
+Go Web Development Cookbook: Build full-stack web applications with Go,26.99,3.2
+Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People,33.99,(4.6)
+100 Go Mistakes and How to Avoid Them,48.49,(4.9)
+"Go for DevOps: Learn how to use the Go language to automate servers, the cloud, Kubernetes, GitHub, Packer, and Terraform",53.99,(4.7)
+Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science),40.47,(4.8)
+Microservices Patterns: With Examples in Java,0.00,(4.6)
+Get Programming with Go,26.57,(4.7)
+Kotlin Golang Rust: Programming language,5.49,(1.0)
+"Composition Notebook: Sleeping Golang Gopher | Go Programming, Journal 6 x 9, 100 Page Blank Lined Paperback Journal/Notebook",6.99,(5.0)
+to Golang : A starter's guide (Go Programming Book 1),0.00,(1.0)
+"The Blockchain Developer: A Practical Guide for Designing, Implementing, Publishing, Testing, and Securing Distributed Blockchain-based Projects",27.99,(4.3)
+"Dependency Injection Principles, Practices, and Patterns",59.99,(4.7)
+Practical NATS: From Beginner to Pro,51.26,(4.4)
+Hacking the System Design Interview: Real Big Tech Interview Questions and In-depth Solutions,26.99,(4.7)
+"Good Code, Bad Code: Think like a software engineer",49.99,(4.9)
+Microsoft Office 365 for Beginners 2023: [10 in 1] The All-in-One Guide to Mastering the Whole Suite from Excel to Access | Take Full Advantage of Their Potential Even as a Non-Tech-Savvy,20.97,(4.9)
+"Python: 3 books in 1- Your complete guide to python programming with Python for Beginners, Python Data Analysis and Python Machine Learning (Programming Languages for Beginners)",24.95,(4.6)
+API Testing with Postman,2.99,(3.5)
+Foundations of Scalable Systems: Designing Distributed Architectures,44.99,(3.8)
+"Introducing Go: Build Reliable, Scalable Programs",15.99,(4.2)
+"The Go Workshop: Learn to write clean, efficient code and build high-performance applications with Go",17.84,(4.6)
+Plograming keikensya ga Golang wo honkakuteki ni benkyousurumaeni yomutameno hon (Japanese Edition),0.00,(3.9)
+Go Revel Tutorial Creating Web application in 10 minutes with Go golang web framework Revel and PaizaCloud Cloud IDE (Japanese Edition),0.00,(5.0)
+"Cryptography Algorithms: A guide to algorithms in blockchain, quantum cryptography, zero-knowledge protocols, and homomorphic encryption",46.99,(4.5)
+Concise Go,0.99,(3.0)
+Timeless Laws of Software Development,26.95,(4.4)
+"Solutions Architect's Handbook: Kick-start your career as a solutions architect by learning architecture design principles and strategies, 2nd Edition",46.79,(4.7)
+"Game Development Patterns with Unity 2021: Explore practical game development using software design patterns and best practices in Unity and C#, 2nd Edition",36.99,(4.5)
+Python Concurrency with asyncio,44.49,(3.9)
+Building Event-Driven Microservices: Leveraging Organizational Data at Scale,35.99,(4.4)
+"Go Cookbook: Build modular, readable, and testable applications in Go",19.66,(4.5)
+Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series),34.19,(4.7)
+Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers),28.31,(4.2)
+Fácil Aprendizaje Estructuras De Datos y Algoritmos Go: Aprenda gráficamente las estructuras de datos y los algoritmos de Go mejor que antes (Spanish Edition),9.87,(4.5)
+Algorithms Go: Explains Algorithms with Beautiful Pictures Learn it Easy Better and Well,9.99,(1.0)
+"Hands-On Serverless Applications with Go: Build real-world, production-ready applications with AWS Lambda",46.99,(4.7)
+"Building Python Web APIs with FastAPI: A fast-paced guide to building high-performance, robust web APIs with very little boilerplate code",28.99,(4.4)
+"Building a Blockchain and Applications with Cosmos: A Step by Step guide to Token Economics, Engineering, and Development of Blockchain and Applications",0.00,(2.0)
+Go Generics 101 (Go 101),5.99,(2.0)
+An Introduction to APIs,0.00,(4.4)
+Algoritmos Go: Explica los algoritmos de Go con bellas imágenes Aprende de forma fácil y mejor (Spanish Edition),9.87,(3.3)
+Go Programming Language: Easy Guide Book,0.00,(3.0)
+Word of Mouth 2.0 (B/W),13.99,(4.6)
+"Kubernetes and Docker - An Enterprise Guide: Effectively containerize applications, integrate enterprise systems, and scale applications in your enterprise",94.99,(4.5)
+The Way to Go: A Thorough Introduction to the Go Programming Language,2.99,(3.9)

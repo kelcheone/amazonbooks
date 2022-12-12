@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
+import numpy as np
 import pandas as pd
 import requests
 import csv
@@ -152,17 +153,43 @@ class Book:
 
         print(booksDf.describe())
 
+        # generate bar graph for min maxes, mean
+        min_price = booksDf['Price'].min()
+        max_price = booksDf['Price'].max()
+        mean_price = booksDf['Price'].mean()
+        min_rating = booksDf['Rating'].min()
+        max_rating = booksDf['Rating'].max()
+        mean_rating = booksDf['Rating'].mean()
+
+        price_names = np.array(['Min', 'Max', 'Mean'])
+        price_values = np.array([min_price, max_price, mean_price])
+        rating_names = np.array(['Min', 'Max', 'Mean'])
+        rating_values = np.array([min_rating, max_rating, mean_rating])
+
+        colors = ['yellow', 'green', 'blue']
+
+        plt.subplot(1, 2, 1)
+        plt.bar(price_names, price_values, color=colors)
+        plt.title(f'{self.keyword} Price')
+        plt.savefig(f'{self.keyword}_price.png')
+        plt.show()
+        plt.subplot(1, 2, 2)
+        plt.bar(rating_names, rating_values, color=colors)
+        plt.title(f'{self.keyword} Rating')
+        plt.savefig(f'{self.keyword}_rating.png')
+        plt.show()
+
+        # scatter plot for price and rating
         plt.figure(figsize=(10, 6))
         # add title, x and y labels
-        plt.title(f'{self.keyword}Price vs Rating relationship', fontsize=20)
-        plt.xlabel(f'{self.keyword} Price ($)', fontsize=15)
-        plt.ylabel(f'{self.keyword}Rating', fontsize=15)
+        plt.title('Price vs Rating', fontsize=20)
+        plt.xlabel('Price ($)', fontsize=15)
+        plt.ylabel('Rating', fontsize=15)
         # add the scatter plot
         plt.scatter(booksDf['Price'], booksDf['Rating'],
                     s=100, color='slateblue', alpha=0.5)
-        # save the plot as a png image
-        plt.savefig(f'{self.csv_name}_plot.png')
-        # plt.show()
+
+        plt.show()
 
 
 def main():
