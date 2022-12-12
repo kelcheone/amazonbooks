@@ -72,19 +72,22 @@ def get_next_page(soup):
 
 
 class Book:
+
     # runs on initialization and takes the keyworkd option
+
     def __init__(self, keyword):
         self.keyword = keyword
         self.url = "https://www.amazon.com/s?k=" + keyword
         self.csv_name = f'{self.keyword}_books'
+        self.Books = []
 
     def getDetails(self):
         """Get book search details and create a CSV file of the data"""
         # getting the first html then loop through the pages
         soup = getAmazonPrice(self.url)
-        books = []
-        # getting the details of the books
-        books = get_books_details(soup)
+        # books = []
+        # getting the details of the books and appending to the list
+        self.Books += get_books_details(soup)
         # getting the first 5 next pages only into a list.
         pageLinks = []
         try:
@@ -92,26 +95,26 @@ class Book:
                 # getting the next page
                 next_page = get_next_page(soup)
                 # getting the details of the books and appending to the list
-                books += get_books_details(soup)
+                self.Books += get_books_details(soup)
                 # appending the next page to the list
                 pageLinks.append(next_page)
                 # getting the html of the next page
                 soup = getAmazonPrice(next_page)
                 # stopping at lastpage or on page 5
-                if "s-pagination-disabled " in str(soup) or len(pageLinks) == 4:
+                if "s-pagination-disabled " in str(soup) or len(pageLinks) == 2:
                     break
         except:
             pass
 
         # Calculating the minmaxes with lamda functions
-        highest_rated_book = max(books, key=lambda x: x["rating"])
-        lowest_rated_book = min(books, key=lambda x: x["rating"])
-        highest_priced_book = max(books, key=lambda x: x["price"])
-        lowest_priced_book = min(books, key=lambda x: x["price"])
+        highest_rated_book = max(self.Books, key=lambda x: x["rating"])
+        lowest_rated_book = min(self.Books, key=lambda x: x["rating"])
+        highest_priced_book = max(self.Books, key=lambda x: x["price"])
+        lowest_priced_book = min(self.Books, key=lambda x: x["price"])
 
         print("------------------------------------------------------------------------------------------------------------")
 
-        print(f"Total {self.keyword} books found: {len(books)}")
+        print(f"Total {self.keyword} books found: {len(self.Books)}")
         print(
             f"Highest rated {self.keyword} book: {highest_rated_book['title']}")
         print(
@@ -127,52 +130,68 @@ class Book:
         with open(self.csv_name + ".csv", "w") as file:
             writer = csv.writer(file)
             writer.writerow(["Title", "Price", "Rating"])
-            for book in books:
+            for book in self.Books:
                 writer.writerow([book["title"], book["price"], book["rating"]])
+        print(f"CSV file created: {self.csv_name}.csv")
+        self.analyzedata()
 
     def analyzedata(self):
+        print("Analyzing data...")
         """Analyze the data from the saved csv file and generate a plot"""
         # getting books data from csv.
-        booksDf = pd.read_csv(f'{self.csv_name}.csv')
+        # booksDf = pd.read_csv(f'{self.csv_name}.csv')
+
+        booksDf = pd.DataFrame(self.Books)
+
         print(
             f"*********************************{self.keyword} sample data*****************************")
         print(booksDf.head(20))
-        # getting type of rating
-        booksDf['Price'].dtype
-        # migrating Rating from object to float
-        booksDf['Rating'] = pd.to_numeric(booksDf['Rating'], errors='coerce')
-        # getting all rows with null rating
-        booksDf[booksDf['Rating'].isnull()]
-        # dropping all rows with null rating
-        booksDf = booksDf.dropna()
-        # dropping all rows with ratings which are more than 5
-        booksDf = booksDf[booksDf['Rating'] <= 5]
+
+        newDf = booksDf.dropna()
+
+        # migrare rating from object to float and coerce errors
+        newDf['rating'] = pd.to_numeric(newDf['rating'], errors='coerce')
+        # # drop all rows with NaN rating values
+        newDf = newDf.dropna(subset=['rating'])
+        # # drop all rows with rating more than 5
+        newDf = newDf[newDf['rating'] <= 5]
+
+        # make new_df csv
+        newDf.to_csv(f'{self.keyword}_new.csv')
+
+        newDf = pd.read_csv(f'{self.keyword}_new.csv')
 
         print(
             f"////////////////////// {self.keyword} Data Description//////////////////////////")
 
-        print(booksDf.describe())
+        print(newDf.describe())
 
         # generate bar graph for min maxes, mean
-        min_price = booksDf['Price'].min()
-        max_price = booksDf['Price'].max()
-        mean_price = booksDf['Price'].mean()
-        min_rating = booksDf['Rating'].min()
-        max_rating = booksDf['Rating'].max()
-        mean_rating = booksDf['Rating'].mean()
 
-        price_names = np.array(['Min', 'Max', 'Mean'])
+        min_price = newDf['price'].min()
+        max_price = newDf['price'].max()
+        mean_price = newDf['price'].mean()
+        min_rating = newDf['rating'].min()
+        max_rating = newDf['rating'].max()
+        mean_rating = newDf['rating'].mean()
+
+        price_names = np.array(
+            [f'{self.keyword} MinPrice', f'{self.keyword} MaxPrice', f'{self.keyword} MeanPrice'])
         price_values = np.array([min_price, max_price, mean_price])
-        rating_names = np.array(['Min', 'Max', 'Mean'])
+        rating_names = np.array(
+            [f'{self.keyword} MinRating', f'{self.keyword} MaxRating', f'{self.keyword} MeanRating'])
         rating_values = np.array([min_rating, max_rating, mean_rating])
 
-        colors = ['yellow', 'green', 'blue']
-
+        colors = ['yellow', 'blue', 'orange']
+        # scale the plot size
+        plt.figure(figsize=(10, 6))
         plt.subplot(1, 2, 1)
         plt.bar(price_names, price_values, color=colors)
         plt.title(f'{self.keyword} Price')
         plt.savefig(f'{self.keyword}_price.png')
         plt.show()
+
+        plt.figure(figsize=(10, 6))
         plt.subplot(1, 2, 2)
         plt.bar(rating_names, rating_values, color=colors)
         plt.title(f'{self.keyword} Rating')
@@ -218,7 +237,7 @@ def main():
         # gettung book deatils
         book.getDetails()
         # analyzing data
-        book.analyzedata()
+        # book.analyzedata()
     except:
         pass
 
